@@ -1,6 +1,7 @@
 package com.demo;
 
 public class Klijent {
+    private int id;
    private String ime;
    private String prezime;
     private int pinBroj;
@@ -8,6 +9,7 @@ public class Klijent {
     private int stanjeRacuna;
 
     public Klijent(String ime, String prezime, int pinBroj, int oib, int stanjeRacuna) {
+        this.id = id++;
         this.ime = ime;
         this.prezime = prezime;
         this.pinBroj = pinBroj;
@@ -20,10 +22,10 @@ public class Klijent {
     public String getIme() {
         return ime;
     }
+
     public String getPrezime() {
         return prezime;
     }
-
     public int getPinBroj() {
         return pinBroj;
     }
@@ -50,6 +52,14 @@ public class Klijent {
 
     public void setOib(int oib) {
         this.oib = oib;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
     public void setStanjeRacuna(int stanjeRacuna) {
         this.stanjeRacuna = stanjeRacuna;

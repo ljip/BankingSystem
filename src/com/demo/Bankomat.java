@@ -14,14 +14,14 @@ public class Bankomat implements UslugeBankomata {
         this.bazaCRUD = bazaCRUD;
     }
 
-    public void unosKlijenta(String ime, String prezime, int oib, int pinBroj, int stanjeRacuna) throws SQLException {
+    public void unosKlijenta(String ime, String prezime, int oib, int stanjeRacuna, int pinBroj) throws SQLException {
         PreparedStatement statement = this.connection.prepareStatement(
-                "INSERT INTO klijenti (id, ime, prezime, oib, stanjeRacuna, pinBroj) VALUsES (?,?,?,?,?,?)");
+                "INSERT INTO klijenti (id, ime, prezime, oib, klijenti.stanjeRacuna, pinBroj) VALUsES (?,?,?,?,?,?)");
         statement.setString(1, ime);
         statement.setString(2, prezime);
         statement.setInt(3, oib);
-        statement.setInt(4, pinBroj);
-        statement.setDouble(5, stanjeRacuna);
+        statement.setInt(4, stanjeRacuna);
+        statement.setDouble(5, pinBroj);
         statement.executeUpdate();
     }
 

@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b86be55-19df-4170-bfb6-efac6e612b34" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/com/demo/Bankomat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/Klijent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/Logika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/UslugeBankomata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="4b86be55-19df-4170-bfb6-efac6e612b34" name="Changes" comment="fixed connection to postgreSQL server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankingSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BankingSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bankomat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BazaCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/BazaCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klijent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UslugeBankomata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/Bankomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/Bankomat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/BazaCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/BazaCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/Klijent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/Klijent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,32 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/filip/Downloads/postgresql-42.6.0.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/filip/Downloads/postgresql-42.6.0.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "java.sql.Driver",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;java.sql.Driver&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/demo" />
@@ -109,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682405421628</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed connection to postgreSQL server">
+      <created>1683097895097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683097895097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="fixed connection to postgreSQL server" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed connection to postgreSQL server" />
   </component>
 </project>
